@@ -72,7 +72,12 @@ function Navigation() {
             >
               Contact
             </a>
-            <Button>Accéder à la bêta</Button>
+            <a href="https://app.cercle-gpt.com/login" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline">Se connecter</Button>
+            </a>
+            <a href="https://app.cercle-gpt.com/register" target="_blank" rel="noopener noreferrer">
+              <Button>Accéder à la bêta</Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -111,7 +116,14 @@ function Navigation() {
             >
               Contact
             </a>
-            <Button className="w-full">Accéder à la bêta</Button>
+            <a href="https://app.cercle-gpt.com/login" target="_blank" rel="noopener noreferrer" className="block">
+              <Button variant="outline" className="w-full bg-transparent">
+                Se connecter
+              </Button>
+            </a>
+            <a href="https://app.cercle-gpt.com/register" target="_blank" rel="noopener noreferrer" className="block">
+              <Button className="w-full">Accéder à la bêta</Button>
+            </a>
           </div>
         )}
       </div>
@@ -172,16 +184,36 @@ function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
+          className="flex flex-col sm:flex-row gap-4 justify-center mb-4"
         >
-          <Button size="lg" className="text-lg px-8 py-6">
-            Accéder à la bêta
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+          <a href="https://app.cercle-gpt.com/register" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="text-lg px-8 py-6">
+              Accéder à la bêta
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Button>
+          </a>
           <Button variant="outline" size="lg" className="text-lg px-8 py-6 bg-transparent">
             Voir la démo
           </Button>
         </motion.div>
+
+        {/* Login Link Below CTA Buttons */}
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="text-sm text-gray-600 dark:text-gray-400 mb-16"
+        >
+          Vous avez déjà un compte ?{" "}
+          <a
+            href="https://app.cercle-gpt.com/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+          >
+            Se connecter
+          </a>
+        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
