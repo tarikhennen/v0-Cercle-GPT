@@ -175,12 +175,7 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex items-center justify-center gap-2 mb-6"
-        >
-          <Shield className="w-5 h-5 text-green-600 dark:text-green-400" />
-          <span className="text-lg font-semibold text-green-700 dark:text-green-400">
-            Intégrité académique garantie
-          </span>
-        </motion.div>
+        ></motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 30 }}
@@ -235,12 +230,12 @@ function HeroSection() {
           className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto"
         >
           <div className="text-center">
-            <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">5+ IA</div>
-            <div className="text-gray-600 dark:text-gray-400">Comparées simultanément</div>
+            <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">5</div>
+            <div className="text-gray-600 dark:text-gray-400">Outils IA</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">3x</div>
-            <div className="text-gray-600 dark:text-gray-400">Plus de perspectives</div>
+            <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">19</div>
+            <div className="text-gray-600 dark:text-gray-400">Modèles IA</div>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">100%</div>
