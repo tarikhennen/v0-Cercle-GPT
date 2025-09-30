@@ -238,8 +238,8 @@ function HeroSection() {
             <div className="text-gray-600 dark:text-gray-400">Modèles IA</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">100%</div>
-            <div className="text-gray-600 dark:text-gray-400">Étudiants IHECS M2</div>
+            <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">150+</div>
+            <div className="text-gray-600 dark:text-gray-400">Utilisateurs étudiants et enseignants  </div>
           </div>
         </motion.div>
       </div>
@@ -300,10 +300,9 @@ function FeaturesSection() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Votre avantage académique multi-IA</h2>
+          <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Votre outil académique multi-IA</h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            Des outils conçus pour les étudiants exigeants qui veulent exceller dans leurs mémoires, projets et
-            recherches académiques
+            Des outils conçus pour les étudiants exigeants qui veulent exceller dans leurs mémoires, projets et recherches académiques
           </p>
         </motion.div>
 
