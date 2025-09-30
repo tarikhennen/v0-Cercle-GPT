@@ -143,7 +143,6 @@ function HeroSection() {
       <div className="absolute bottom-20 right-20 w-96 h-96 bg-purple-400/20 rounded-full blur-3xl"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
-        {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -152,7 +151,7 @@ function HeroSection() {
         >
           <GraduationCap className="w-4 h-4 text-blue-600 dark:text-blue-400" />
           <span className="text-sm font-medium text-blue-700 dark:text-blue-300">
-            Bêta exclusive pour les étudiants IHECS Master 2
+            En développement - Bêta exclusive IHECS Master 2
           </span>
         </motion.div>
 
@@ -170,6 +169,18 @@ function HeroSection() {
           <br />
           avec plusieurs IA
         </motion.h1>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="flex items-center justify-center gap-2 mb-6"
+        >
+          <Shield className="w-5 h-5 text-green-600 dark:text-green-400" />
+          <span className="text-lg font-semibold text-green-700 dark:text-green-400">
+            Intégrité académique garantie
+          </span>
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 30 }}
