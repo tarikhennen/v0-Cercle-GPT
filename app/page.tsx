@@ -73,7 +73,9 @@ function Navigation() {
               Contact
             </a>
             <a href="https://app.cercle-gpt.com/login" target="_blank" rel="noopener noreferrer">
-              <Button variant="outline">Se connecter</Button>
+              <Button variant="outline" className="bg-transparent">
+                Se connecter
+              </Button>
             </a>
             <a href="https://app.cercle-gpt.com/register" target="_blank" rel="noopener noreferrer">
               <Button>Accéder à la bêta</Button>
@@ -653,7 +655,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white">Email</h3>
-                  <p className="text-gray-600 dark:text-gray-400">contact@cerclegpt.be</p>
+                  <p className="text-gray-600 dark:text-gray-400">hello@lecercle.ai</p>
                 </div>
               </div>
 
@@ -663,7 +665,9 @@ function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white">Adresse</h3>
-                  <p className="text-gray-600 dark:text-gray-400">IHECS, Rue de l'Étuve 58-60, 1000 Bruxelles</p>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    Avenue des Volontaires 19, 1060 Auderghem (Belgique)
+                  </p>
                 </div>
               </div>
             </div>
